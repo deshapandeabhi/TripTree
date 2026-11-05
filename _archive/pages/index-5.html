@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>TripTree | Resorts & Homestays</title>
+<!-- Stylesheets -->
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<!-- Responsive File -->
+<link href="assets/css/responsive.css" rel="stylesheet">
+<!-- Color File -->
+<link href="assets/css/color.css" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;800&amp;family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&amp;display=swap" rel="stylesheet">
+
+<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+<link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body class="dark_bg">
+
+<div class="page-wrapper">
+
+    <!-- Main Header -->
+    <header class="main-header header-style-five">
+
+        <!-- Header Upper -->
+        <div class="header-upper">
+            <div class="auto-container">
+                <div class="inner-container">
+                    <!--Logo-->
+                    <div class="logo-box">
+                        <div class="logo"><a href="index.html"><img src="assets/images/logo-light.svg" width="170" alt="TripTree"></a></div>
+                    </div>
+                    <!--Nav Box-->
+                    <div class="nav-outer">
+                        <!--Mobile Navigation Toggler-->
+                        <div class="mobile-nav-toggler"><img src="assets/images/icons/icon-bar4.png" alt="Triptree Menu"></div>
+
+                        <!-- Main Menu -->
+                        <nav class="main-menu navbar-expand-md navbar-light">
+                            <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                <ul class="navigation">
+                                <li><a href="index.html">Home</a>
+                                </li>
+                                <li><a href="#">About Us</a>
+                                </li>                                    
+                                <li><a href="#">Rooms</a>
+                                    <ul>
+                                        <li><a href="room-grid.html">Room Grid Style</a>
+                                        </li>
+                                        <li><a href="room-list.html">Room List Style</a></li>
+                                        <li class="dropdown"><a href="#">Single Room</a>
+                                            <ul>
+                                                <li><a href="booking-reservation.html">Booking with reservation form</a>
+                                                </li>
+                                                <li><a href="booking-enquiry.html">Booking with enquiry form</a></li>
+                                                <li><a href="booking-banner.html">Booking with banner link</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Blog</a>
+                                    <ul>
+                                        <li><a href="blog-with-sidebar.html">Blog With Sidebar</a></li>
+                                        <li><a href="blog-with-column.html">Blog With 2 Column</a></li>
+                                        <li><a href="blog-details.html">Blog Details</a></li>
+                                    </ul>
+                                </li>
+                                
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="right-column">
+                        <div class="navbar-right">
+                            <div class="header-phone-number">
+                                <a href="tel:+919900005639"><i class="flaticon-smartphone"></i> +91 990 000 5639</a>
+                            </div>
+                            <div class="link-btn"><a href="booking-reservation.html" class="theme-btn btn-style-one btn-md">Reservation</a></div>
+                        </div>
+                    </div>                     
+                </div>
+            </div>
+        </div>
+        <!--End Header Upper-->
+
+        <!-- Sticky Header  -->
+        <div class="sticky-header">
+            <div class="header-upper">
+                <div class="auto-container">
+                    <div class="inner-container">
+                        <!--Logo-->
+                        <div class="logo-box">
+                            <div class="logo"><a href="index.html"><img src="assets/images/logo-light.svg" width="150" alt="Triptree Logo"></a></div>
+                        </div>
+                        <!--Nav Box-->
+                        <div class="nav-outer">
+                            <!--Mobile Navigation Toggler-->
+                            <div class="mobile-nav-toggler"><img src="assets/images/icons/icon-bar4.png" alt=""></div>
+    
+                            <!-- Main Menu -->
+                            <nav class="main-menu navbar-expand-md navbar-light">
+                            </nav>
+                        </div>
+                        <div class="right-column">
+                            <div class="navbar-right">
+                                <div class="header-phone-number">
+                                    <a href="tel:+919900005639"><i class="flaticon-smartphone"></i> +91 990 000 5639</a>
+                                </div>
+                                <div class="link-btn"><a href="booking-reservation.html" class="theme-btn btn-style-one btn-md">Reservation</a></div>
+                            </div>
+                        </div>                     
+                    </div>
+                </div>
+            </div>
+        </div><!-- End Sticky Menu -->
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><i class="icon far fa-times"></i></div>
+            
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-light-2.svg" alt="" title=""></a></div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+				<!--Social Links-->
+				<div class="social-links">
+					<ul class="clearfix">
+						<li><a href="#"><span class="fab fa-twitter"></span></a></li>
+						<li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+						<li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
+						<li><a href="#"><span class="fab fa-instagram"></span></a></li>
+						<li><a href="#"><span class="fab fa-youtube"></span></a></li>
+					</ul>
+                </div>
+            </nav>
+        </div><!-- End Mobile Menu -->
+
+        <div class="nav-overlay">
+            <div class="cursor"></div>
+            <div class="cursor-follower"></div>
+        </div>
+    </header>
+    <!-- End Main Header -->
+
+    <!--Search Popup-->
+    <div id="search-popup" class="search-popup">
+        <div class="close-search theme-btn"><i class="far fa-times"></i></div>
+        <div class="popup-inner">
+            <div class="overlay-layer"></div>
+            <div class="search-form">
+                <form method="post" action="index.html">
+                    <div class="form-group">
+                        <fieldset>
+                            <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
+                            <input type="submit" value="Search Now!" class="theme-btn">
+                        </fieldset>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bnner Section three -->
+    <section class="banner-section-three style-two">
+        <div class="wrapper-box" style="background-image: url(assets/images/main-slider/banner-23.jpg);">
+            <div class="auto-container">
+                <div class="content-box">
+                    <div class="inner">
+                        <h1 class="banner-title">Trip Tree Jungle <br>
+                            Resort</h1>
+                        <div class="text">Food indulgence in mind, come at creaoz and state your desires <br> with our ever beautiful loperm ipsum.
+                        </div>
+                        <div class="link-btn"><a href="booking-reservation.html" class="theme-btn btn-style-one"><span>Reservation</span></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Bnner Section -->
+
+    <!-- Welcome Section seven -->
+    <section class="welcome-section-seven">
+        <div class="auto-container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="title-box">
+                        <div class="sub-title">welcome to TripTree</div>
+                        <h2 class="sec-title text-light">Finest Jungle Safari Resort</h2>
+                        <div class="price">Rs.4000 / Night</div>
+                        <div class="text">
+                            Our objective at TripTree is to bring together our visitor's societies and spirits with our own, communicating enthusiasm and liberality in the food we share. Official Chef and Owner Philippe Massoud superbly creates a blend of Lebanese pevantine. <br> <br> Our objective at TripTree is to bring together our visitor's societies and spirits with our own, communicating enthusiasm and liberality in the food we share.
+                        </div>
+                        <div class="link-btn"><a href="booking-reservation.html" class="read-more-btn">Discover More</a></div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="content-block">
+                        <div class="inner-box">
+                            <div class="icon"><i class="flaticon-resort"></i></div>
+                            <h3>The Poineer <br> In this Industry</h3>
+                            <div class="text-two">Our objective at TripTree is <br> to bring together our visitor's <br> societies and spirits.</div>
+                            <div class="link-btn"><a href="booking-reservation.html" class="theme-btn btn-style-two">Reservation</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- We invite section -->
+    <section class="we-invite-section border-shape-top mx-60">
+        <div class="bg-image"style="background-image: url(assets/images/background/bg-1.jpg);"></div>
+        <div class="auto-container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="image-block">
+                        <div class="image"><img src="assets/images/resource/image-49.jpg" alt=""></div>
+                        <div class="image-two"><img src="assets/images/resource/image-50.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-block">
+                        <div class="sub-title">enjoy the unique experience</div>
+                        <h2 class="sec-title">We Invite To <br> Celebrate Wild Life</h2>
+                        <div class="text">Our objective at TripTree is to bring together our visitor's societies and spirits with our own, communicating enthusiasm and liberality in the food we share. Official Chef and Owner Philippe Massoud superbly creates a blend of Lebanese, Levantine, Mediterranean motivated food blended in with New York mentality. Delightful herbs and flavors consolidate surfaces to pacify.</div>
+                        <div class="text-two">Official Chef and Owner Philippe Massoud superbly creates a blend of Lebanese, Levantine, Mediterranean motivated food blended in with New York mentality.</div>
+                        <div class="image"><img src="assets/images/resource/image-4.png" alt=""></div>
+                        <div class="link-btn"><a href="about.html" class="theme-btn btn-style-one"><span>Read More <i class="flaticon-right-arrow"></i></span></a></div>
+                        <div class="award">
+                            <div class="icon"><img src="assets/images/icons/icon-1.png" alt=""></div>
+                            <h4>awarded <br> Resort</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+   <!-- amenities section two -->
+   <section class="amenities-section-two light-bg mx-60 border-shape-bottom">
+    <div class="auto-container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="title-box">
+                    <div class="sub-title">amenities</div>
+                    <h2 class="sec-title">Facilities & <br> Services</h2>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="row">
+                    <div class="col-md-6 amenities-block">
+                        <div class="inner-box">
+                            <div class="icon"><i class="flaticon-wifi-signal"></i></div>
+                            <h1>High Speed Wifi</h1>
+                            <div class="text">With our service you may enjoy the finest life in our resort.</div>
+                        </div>                    
+                    </div>
+
+                    <div class="col-md-6 amenities-block">
+                        <div class="inner-box">
+                            <div class="icon"><i class="flaticon-car"></i></div>
+                            <h1>Pick & Drop Facility</h1>
+                            <div class="text">With our service you may enjoy the finest life in our resort.</div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 amenities-block">
+                        <div class="inner-box">
+                            <div class="icon"><i class="flaticon-smart-tv"></i></div>
+                            <h1>Smart TV</h1>
+                            <div class="text">With our service you may enjoy the finest life in our resort.</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 amenities-block">
+                        <div class="inner-box">
+                            <div class="icon"><i class="flaticon-pool"></i></div>
+                            <h1>Swimming Pool</h1>
+                            <div class="text">With our service you may enjoy the finest life in our resort.</div>  
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 amenities-block">
+                        <div class="inner-box">
+                            <div class="icon"><i class="flaticon-breakfast"></i></div>
+                            <h1>Breakfast Included</h1>
+                            <div class="text">With our service you may enjoy the finest life in our resort.</div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 amenities-block">
+                        <div class="inner-box">
+                            <div class="icon"><i class="flaticon-bath"></i></div>
+                            <h1>Shower Bathtub</h1>
+                            <div class="text">With our service you may enjoy the finest life in our resort.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>            
+    </div>
+    </section>
+
+    <!-- accomodation section -->
+    <section class="accomodation-section">
+        <div class="auto-container">
+            <div class="title-box text-center">
+                <div class="sub-title">accomodation</div>
+                <h2 class="sec-title text-light">Our Rooms & Suits</h2>
+            </div>
+            <div class="theme_carousel owl-theme owl-carousel" data-options='{"loop": true, "center": false, "margin": 30, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 1000, "responsive":{ "0" :{ "items": "1" }, "480" :{ "items" : "1" }, "600" :{ "items" : "1" }, "768" :{ "items" : "1" } , "992":{ "items" : "1" }, "1200":{ "items" : "1" }}}'>
+                <div class="accomodation-block">
+                    <div class="image"><img src="assets/images/resource/image-51.jpg" alt=""></div>
+                    <div class="content">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="price">Rs.4000 / Night</div>
+                                <h3><a href="booking-reservation.html"> Modern Cottage</a></h3>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="info-list">
+                                    <ul>
+                                        <li> <i class="flaticon-bed"></i>2 beds</li>
+                                        <li> <i class="flaticon-bath-1"></i>1 Bathroom</li>
+                                        <li> <i class="flaticon-blueprint"></i>800 sq.ft</li>
+                                    </ul>
+                                </div>
+                                <div class="text">TripTree is to bring together our visitor's societies and spirits with our own, communicating enthusiasm and liberality.</div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accomodation-block">
+                    <div class="image"><img src="assets/images/resource/image-52.jpg" alt=""></div>
+                    <div class="content">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="price">Rs.3500 / Night</div>
+                                <h3><a href="booking-reservation.html">Modern Cottage</a></h3>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="info-list">
+                                    <ul>
+                                        <li> <i class="flaticon-bed"></i>2 beds</li>
+                                        <li> <i class="flaticon-bath-1"></i>1 Bathroom</li>
+                                        <li> <i class="flaticon-blueprint"></i>650 sq.ft</li>
+                                    </ul>
+                                </div>
+                                <div class="text">TripTree is to bring together our visitor's societies and spirits with our own, communicating enthusiasm and liberality.</div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accomodation-block">
+                    <div class="image"><img src="assets/images/resource/image-53.jpg" alt=""></div>
+                    <div class="content">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="price">Rs.4000 / Night</div>
+                                <h3><a href="booking-reservation.html">Modern Cottage</a></h3>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="info-list">
+                                    <ul>
+                                        <li> <i class="flaticon-bed"></i>2 beds</li>
+                                        <li> <i class="flaticon-bath-1"></i>1 Bathroom</li>
+                                        <li> <i class="flaticon-blueprint"></i>800 sq.ft</li>
+                                    </ul>
+                                </div>
+                                <div class="text">TripTree is to bring together our visitor's societies and spirits with our own, communicating enthusiasm and liberality.</div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- service section -->
+    <section class="service-section light-bg mx-60 border-shape-top">
+        <div class="auto-container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="image-block">
+                        <div class="image"><img src="assets/images/resource/image-7.jpg" alt=""></div>
+                        <div class="text-end">
+                            <div class="image-two img_hover_1"><img src="assets/images/resource/image-36.jpg" alt=""></div>
+                        </div>
+                        <div class="text-one">Fresh food</div>
+                        <div class="text-two">restaurant</div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="content-block">
+                        <div class="title-box">
+                            <div class="sub-title">eat & drink</div>
+                            <h2 class="sec-title"> Indulge in exceptional <br> & Local Foodies</h2>
+                        </div>
+                        <div class="time">Open Daily : 7.30 am - 11.00pm</div>
+                        <div class="link-btn"><a href="restaurant.html" class="theme-btn btn-style-two"><span>Read more</span></a></div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+
+    <!-- service section two -->
+    <section class="service-section-two light-bg mx-60 border-shape-bottom z_9">
+        <div class="auto-container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="content-block">
+                        <div class="title-box">
+                            <div class="sub-title">wellness</div>
+                            <h2 class="sec-title">A truly luxurious <br> experience for <br> the senses</h2>
+                        </div>
+                        <div class="text">For special rates please contact the</div>
+                        <h4>front office :<a href="tel: +18004567890"> +1800 456 7890</a></h4>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="image-block">
+                        <div class="image"><img src="assets/images/resource/image-9.jpg" alt=""></div>
+                        <div class="image-two img_hover_1"><img src="assets/images/resource/image-38.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+
+    <!-- Cta section two -->
+    <section class="cta-section-two">
+        <div class="bg-image"  data-parallax='{"x": 40}' style="background-image: url(assets/images/background/image-1.png);"></div>
+        <div class="offer-image">
+            <img src="assets/images/resource/image-8.png" alt="">
+        </div>
+        <div class="auto-container">
+            <div class="row">
+                <div class="col-xl-5 offset-xl-7 cta-block">
+                    <div class="title-box text-light">
+                        <div class="sub-title">Our offer</div>
+                        <h2 class="sec-title">Summer Offer</h2>
+                    </div>
+                    <div class="text">Benefit from a 10% discount, making your reservations with a minimum of 3 days in advance</div>
+                    <div class="link-btn"><a href="services.html" class="theme-btn btn-style-one"><span>find out more</span></a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonials -->
+    <section class="testimonials-section light-bg mx-60 border-shape-top">
+       <div class="auto-container">
+           <div class="row">
+               <div class="col-lg-7">
+                   <div class="content-block" style="background-image: url(assets/images/resource/image-11.jpg);">
+                       <div class="title-box text-light">
+                           <div class="sub-title">Testimonials</div>
+                           <h2 class="sec-title">Clients Review</h2>
+                       </div>
+                       <div class="link-btn"><a href="testimonials.html" class="theme-btn btn-style-one"><span>all testimonials</span></a></div>
+                       <div class="award" data-parallax='{"y": 20}'>
+                           <img src="assets/images/icons/icon-1.png" alt="">
+                           <h4>awarded <br> restaurant</h4>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-lg-5">
+                    <div class="theme_carousel owl-theme owl-carousel owl-dot-style-one" data-options='{"loop": true, "center": false, "margin": 30, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 1000, "responsive":{ "0" :{ "items": "1" }, "480" :{ "items" : "1" }, "600" :{ "items" : "1" }, "768" :{ "items" : "1" } , "992":{ "items" : "1" }, "1200":{ "items" : "1" }}}'>
+                        <div class="testimonial-block">                                
+                           <h3><span class="quote">“</span>The Best Resort</h3>
+                           <div class="text">The team at Baroque is incredibly dedicated, knowledgeable, and helpful. The finished product was beautiful every penny incredibly dedicated,  bleincredibly dedicated, knowledgeable. </div>
+                           <div class="author-info">
+                               <div class="author-thumb"><img src="assets/images/resource/image-2.png" alt=""></div>
+                               <div class="name">Sudarshan N</div>
+                           </div>
+                        </div>
+                        <div class="testimonial-block">                                
+                            <h3><span class="quote">“</span>The Best Resort</h3>
+                            <div class="text">The team at Baroque is incredibly dedicated, knowledgeable, and helpful. The finished product was beautiful every penny incredibly dedicated,  bleincredibly dedicated, knowledgeable. </div>
+                            <div class="author-info">
+                                <div class="author-thumb"><img src="assets/images/resource/image-2.png" alt=""></div>
+                                <div class="name">Sudarshan N</div>
+                            </div>
+                        </div>
+                        <div class="testimonial-block">                                
+                            <h3><span class="quote">“</span>The Best Resort</h3>
+                            <div class="text">The team at Baroque is incredibly dedicated, knowledgeable, and helpful. The finished product was beautiful every penny incredibly dedicated,  bleincredibly dedicated, knowledgeable. </div>
+                            <div class="author-info">
+                                <div class="author-thumb"><img src="assets/images/resource/image-2.png" alt=""></div>
+                                <div class="name">Sudarshan N</div>
+                            </div>
+                        </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+
+   <div class="light-bg mx-60">
+       <div class="auto-container">
+           <div class="boder-bottom-two"></div>
+       </div>
+   </div>
+
+    <!-- news section two -->
+    <section class="news-section-two mx-60 border-shape-bottom">
+        <div class="auto-container">
+            
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="title-box">
+                        <div class="sub-title">reach us</div>
+                        <h2 class="sec-title">Our Location</h2>
+                    </div>
+                    <div class="contact-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0040958397954!2d77.59347821101822!3d12.971589487290993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16775e8ed6d3%3A0x7f432398f5cd3a50!2sUB%20City%2C%2024%2C%20Vittal%20Mallya%20Rd%2C%20KG%20Halli%2C%20Shanthala%20Nagar%2C%20Sampangirama%20Nagar%2C%20Bengaluru%2C%20Karnataka%20560001!5e0!3m2!1sen!2sin!4v1709381837549!5m2!1sen!2sin" width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="title-box">
+                        <div class="sub-title">Tips & receipes</div>
+                        <h2 class="sec-title">News & Articles</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 news-block">
+                            <div class="inner-box">
+                                <div class="image"><a href="blog-details.html"><img src="assets/images/resource/news-1.jpg" alt=""></a></div>
+                                <div class="lower-content">
+                                    <div class="date">25 <br><span>June</span></div>
+                                    <div class="post-meta">Admin  /  Comments 2</div>
+                                    <h3><a href="blog-details.html"> New heaven for our customers in ...</a></h3>
+                                    <div class="link-btn"><a href="blog-details.html" class="theme-btn btn-style-three"><span>Read More</span></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 news-block">
+                            <div class="inner-box">
+                                <div class="image"><a href="blog-details.html"><img src="assets/images/resource/news-3.jpg" alt=""></a></div>
+                                <div class="lower-content">
+                                    <div class="date">25 <br> <span>June</span></div>
+                                    <div class="post-meta">Admin  /  Comments 2</div>
+                                    <h3><a href="blog-details.html"> 10 top soups from our restaurant ...</a></h3>
+                                    <div class="link-btn"><a href="blog-details.html" class="theme-btn btn-style-three"><span>Read more</span></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <!--footer section  -->
+    <footer class="main-footer">
+        <div class="auto-container">
+            <div class="footer-gallery">
+                <div class="row">
+                    <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="image gallery-overlay">
+                            <div class="inner-box">
+                                <img src="assets/images/resource/footer-1.jpg" alt="">
+                                <div class="overlay-box">
+                                    <div class="overlay-inner">
+                                        <div class="content">
+                                            <a href="assets/images/resource/popup-image.jpg" class="lightbox-image link" data-fancybox="gallery"><span class="icon fas fa-eye"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="image gallery-overlay">
+                            <div class="inner-box">
+                                <img src="assets/images/resource/footer-2.jpg" alt="">
+                                <div class="overlay-box">
+                                    <div class="overlay-inner">
+                                        <div class="content">
+                                            <a href="assets/images/resource/popup-image.jpg" class="lightbox-image link" data-fancybox="gallery"><span class="icon fas fa-eye"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="image gallery-overlay">
+                            <div class="inner-box">
+                                <img src="assets/images/resource/footer-3.jpg" alt="">
+                                <div class="overlay-box">
+                                    <div class="overlay-inner">
+                                        <div class="content">
+                                            <a href="assets/images/resource/popup-image.jpg" class="lightbox-image link" data-fancybox="gallery"><span class="icon fas fa-eye"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="image gallery-overlay">
+                            <div class="inner-box">
+                                <img src="assets/images/resource/footer-4.jpg" alt="">
+                                <div class="overlay-box">
+                                    <div class="overlay-inner">
+                                        <div class="content">
+                                            <a href="assets/images/resource/popup-image.jpg" class="lightbox-image link" data-fancybox="gallery"><span class="icon fas fa-eye"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="image gallery-overlay">
+                            <div class="inner-box">
+                                <img src="assets/images/resource/footer-5.jpg" alt="">
+                                <div class="overlay-box">
+                                    <div class="overlay-inner">
+                                        <div class="content">
+                                            <a href="assets/images/resource/popup-image.jpg" class="lightbox-image link" data-fancybox="gallery"><span class="icon fas fa-eye"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="image gallery-overlay">
+                            <div class="inner-box">
+                                <img src="assets/images/resource/footer-6.jpg" alt="">
+                                <div class="overlay-box">
+                                    <div class="overlay-inner">
+                                        <div class="content">
+                                            <a href="assets/images/resource/popup-image.jpg" class="lightbox-image link" data-fancybox="gallery"><span class="icon fas fa-eye"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Widgets Section-->
+            <div class="widgets-section">
+                <div class="row clearfix">
+                    <!--Column-->
+                    <div class="column col-lg-4">
+                        <div class="widget contact-widget">
+                            <div class="image"><a href="index.html"><img src="assets/images/logo-light.svg" width="240" alt=""></a></div>
+                            <table>
+                                <tr>
+                                    <td class="lebel">Tel :</td>
+                                    <td><a href="tel:+919900005639">+91 990 000 5639</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="lebel">Email :</td>
+                                    <td><a href="mailto:info@TripTree.com">info@TripTree.com</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="lebel">Location :</td>
+                                    <td>#2223, 3rd Floor, 12th Main,<br> 3rd Block East, Jayanagar,<br> Bangalore - 560011</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!--Column-->
+                    <div class="column col-lg-3">
+                        <div class="widget links-widget">
+                            <h3 class="widget-title">Quick Links</h3>
+                            <div class="widget-content">
+                                <ul>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="#">Accommodation</a></li>
+                                    <li><a href="restaurant.html">Dine & Drink</a></li>
+                                    <li><a href="spa-relax.html">Spa & Wellness</a></li>
+                                </ul>                                        
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Column-->
+                    <div class="column col-lg-5">
+                        <div class="widget newsletter-widget">    
+                            <h3 class="widget-title">Sign up for our newsletter to receive <br> special offers, news and events.</h3>                    
+                            <div class="widget-content">
+                                <div class="newsletter-form">
+                                    <form class="ajax-sub-form" method="post">
+                                        <div class="form-group">
+                                            <input type="email" placeholder="Enter your email address" id="subscription-email">
+                                            <button type="submit" class="theme-btn"><i class="fas fa-arrow-right"></i> </button>
+                                            <label class="subscription-label" for="subscription-email"></label>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="auto-container">
+        <div class="boder-bottom-four"></div>
+        </div>
+        
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="auto-container">
+                <div class="wrapper-box">
+                    <div class="copyright text-center">
+                        <div class="text">© Copyright 24 TripTree Resorts & Homestays. All right reserved.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+<!--End pagewrapper-->
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fas fa-arrow-up"></span></div>
+
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/jquery.fancybox.js"></script>
+<script src="assets/js/isotope.js"></script>
+<script src="assets/js/owl.js"></script>
+<script src="assets/js/appear.js"></script>
+<script src="assets/js/wow.js"></script>
+<script src="assets/js/scrollbar.js"></script>
+<script src="assets/js/TweenMax.min.js"></script>
+<script src="assets/js/swiper.min.js"></script>
+<script src="assets/js/jquery.ajaxchimp.min.js"></script>
+<script src="assets/js/parallax-scroll.js"></script>
+<script src="assets/js/jquery-ui-1.9.2.custom.min.js"></script>
+<script src="assets/js/jquery.nice-select.min.js"></script>
+
+<script src="assets/js/script.js"></script>
+
+
+</body>
+</html>

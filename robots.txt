@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /_archive/
+Disallow: /_build/
+Disallow: /inc/
+
+Sitemap: https://triptree.co.in/sitemap.xml

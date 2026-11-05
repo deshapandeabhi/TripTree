@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticon%EF%B9%96e5b9312575ff186c7d2bf6af8280cc99.ttf") format("truetype"),
+url("../fonts/flaticon%EF%B9%96e5b9312575ff186c7d2bf6af8280cc99.woff") format("woff"),
+url("../fonts/flaticon%EF%B9%96e5b9312575ff186c7d2bf6af8280cc99.woff2") format("woff2"),
+url("../fonts/flaticon%EF%B9%96e5b9312575ff186c7d2bf6af8280cc99.eot#iefix") format("embedded-opentype"),
+url("../fonts/flaticon%EF%B9%96e5b9312575ff186c7d2bf6af8280cc99.svg#flaticon") format("svg");
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-air-conditioner:before {
+    content: "\f101";
+}
+.flaticon-cable-tv:before {
+    content: "\f102";
+}
+.flaticon-iron:before {
+    content: "\f103";
+}
+.flaticon-terrace:before {
+    content: "\f104";
+}
+.flaticon-kettle:before {
+    content: "\f105";
+}
+.flaticon-hair-dryer:before {
+    content: "\f106";
+}
+.flaticon-croissant:before {
+    content: "\f107";
+}
+.flaticon-phone-ringing:before {
+    content: "\f108";
+}
+.flaticon-mail:before {
+    content: "\f109";
+}
+.flaticon-facebook-logo:before {
+    content: "\f10a";
+}
+.flaticon-instagram:before {
+    content: "\f10b";
+}
+.flaticon-add-circular-outlined-button:before {
+    content: "\f10c";
+}
+.flaticon-up-circular-interface-button:before {
+    content: "\f10d";
+}
+.flaticon-remove:before {
+    content: "\f10e";
+}
+.flaticon-right-arrow:before {
+    content: "\f10f";
+}
+.flaticon-right-arrow-1:before {
+    content: "\f110";
+}
+.flaticon-wifi-signal:before {
+    content: "\f111";
+}
+.flaticon-car:before {
+    content: "\f112";
+}
+.flaticon-pool:before {
+    content: "\f113";
+}
+.flaticon-breakfast:before {
+    content: "\f114";
+}
+.flaticon-bath:before {
+    content: "\f115";
+}
+.flaticon-smart-tv:before {
+    content: "\f116";
+}
+.flaticon-checkmark:before {
+    content: "\f117";
+}
+.flaticon-bath-1:before {
+    content: "\f118";
+}
+.flaticon-blueprint:before {
+    content: "\f119";
+}
+.flaticon-kitchen-set:before {
+    content: "\f11a";
+}
+.flaticon-house-keeping:before {
+    content: "\f11b";
+}
+.flaticon-resort:before {
+    content: "\f11c";
+}
+.flaticon-smartphone:before {
+    content: "\f11d";
+}
+.flaticon-bed:before {
+    content: "\f11e";
+}
+.flaticon-calendar:before {
+    content: "\f11f";
+}
+.flaticon-left-arrow:before {
+    content: "\f120";
+}
+.flaticon-magnifying-glass:before {
+    content: "\f121";
+}
